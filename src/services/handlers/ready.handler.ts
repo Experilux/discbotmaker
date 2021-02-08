@@ -18,7 +18,7 @@ export default class ReadyHandler implements EventHandler {
         this.startedBots.push(bot.user.id);
 
         this.music.initialize();
-        bot.user?.setActivity("Spacelux");
+        bot.user?.setActivity("Watching Spacelux");
         
         GlobalBots.add(bot);
     }
